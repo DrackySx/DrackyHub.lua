@@ -1,4 +1,3 @@
-lua
 
 --[[ Arkhalis Mail Logger ]]--
 
